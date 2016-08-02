@@ -1,0 +1,6 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:qs:20140806-1':
+    - git-travis > travis-ci > request > qs:
+        patched: '2016-08-02T10:37:57.647Z'
