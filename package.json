@@ -6,7 +6,9 @@
     "travisjs": "./bin/travisjs.js"
   },
   "scripts": {
-    "test": "node ./test/travisjs.js"
+    "test": "node ./test/travisjs.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -32,10 +34,12 @@
     "open": "0.0.5",
     "request": "^2.36.0",
     "travis-lint": "0.0.5",
-    "yamljs": "^0.1.5"
+    "yamljs": "^0.1.5",
+    "snyk": "^1.17.5"
   },
   "devDependencies": {
     "nock": "^0.34.1",
     "tape": "^2.13.3"
-  }
+  },
+  "snyk": true
 }
