@@ -25,7 +25,7 @@
   "homepage": "https://github.com/finnp/node-travisjs",
   "dependencies": {
     "configstore": "^0.3.1",
-    "ghauth": "^0.3.0",
+    "ghauth": "^2.0.1",
     "git-travis": "^0.1.10",
     "github-slug": "0.0.2",
     "nomnom": "^1.7.0",
